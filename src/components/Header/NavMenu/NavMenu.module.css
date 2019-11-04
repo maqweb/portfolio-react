@@ -1,0 +1,30 @@
+.navMenu {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transform: scaleY(.9);
+}
+
+.link::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  width: 0%;
+  height: 1px;
+  background: #000;
+  transition: width .25s;
+}
+
+.link:hover::before {
+  width: 100%;
+}
