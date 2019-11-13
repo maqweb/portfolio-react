@@ -1,4 +1,39 @@
 .contacts {
-  height: 80vh;
-  background: #ccc;
+    height: 80vh;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionTitle {
+    text-align: center;
+    text-transform: uppercase;
+    transform: scaleY(.9);
+    /*margin-bottom: 50px;*/
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.form,
+.form textarea {
+    height: 50%;
+}
+
+.buttonWrap {
+    margin-top: 20px;
 }
