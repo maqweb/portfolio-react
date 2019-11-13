@@ -8,9 +8,9 @@ function Contacts() {
                 <div className={style.sectionTitle}>Contacts</div>
 
                 <form className={style.form}>
-                    <input type="text"/>
-                    <input type="text"/>
-                    <textarea/>
+                    <input type="text" placeholder="Name"/>
+                    <input type="text" placeholder="E-mail"/>
+                    <textarea placeholder="Message"/>
                 </form>
 
                 <div className={style.buttonWrap}>

@@ -19,7 +19,6 @@
     text-align: center;
     text-transform: uppercase;
     transform: scaleY(.9);
-    /*margin-bottom: 50px;*/
 }
 
 .form {
@@ -29,6 +28,10 @@
     justify-content: space-around;
 }
 
+.form input {
+    height: 25px;
+}
+
 .form,
 .form textarea {
     height: 50%;
@@ -36,4 +39,13 @@
 
 .buttonWrap {
     margin-top: 20px;
+}
+
+.button {
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    /*text-transform: uppercase;*/
+    /*transform: scaleY(.9);*/
+    /*letter-spacing: 1px;*/
 }
