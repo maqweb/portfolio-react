@@ -1,3 +1,40 @@
 .footer {
     height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sectionTitle {
+    text-align: center;
+    text-transform: uppercase;
+    transform: scaleY(.9);
+}
+
+.socialsWrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socialItem {
+    width: 40px;
+    height: 40px;
+    background: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+}
+
+.copyrights {
+    font-size: 12px;
+    text-align: center;
 }
