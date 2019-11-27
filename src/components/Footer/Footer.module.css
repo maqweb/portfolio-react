@@ -1,41 +1,41 @@
 .footer {
-    height: 20vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .container {
-    height: 80%;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .sectionTitle {
-    text-align: center;
-    text-transform: uppercase;
-    transform: scaleY(.9);
+  text-align: center;
+  text-transform: uppercase;
+  transform: scaleY(.9);
 }
 
 .socialsWrap {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .socialItem {
-    width: 40px;
-    height: 40px;
-    background: #cccccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 9px;
-    margin: 0 20px;
+  width: 40px;
+  height: 40px;
+  background: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  margin: 0 20px;
 }
 
 .copyrights {
-    font-size: 12px;
-    text-align: center;
+  font-size: 12px;
+  text-align: center;
 }

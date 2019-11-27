@@ -1,51 +1,55 @@
 .contacts {
-    height: 80vh;
-    background: #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 80vh;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    height: 70%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sectionTitle {
-    text-align: center;
-    text-transform: uppercase;
-    transform: scaleY(.9);
+  text-align: center;
+  text-transform: uppercase;
+  transform: scaleY(.9);
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-around;
 }
 
 .form input {
-    height: 25px;
+  height: 25px;
 }
 
 .form,
 .form textarea {
-    height: 50%;
+  height: 50%;
 }
 
 .buttonWrap {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .button {
-    cursor: pointer;
-    height: 50px;
-    width: 100px;
-    /*text-transform: uppercase;*/
-    /*transform: scaleY(.9);*/
-    /*letter-spacing: 1px;*/
+  background: #ffffff;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+}
+
+@media screen and (max-width: 460px) {
+  .form {
+    width: 100%;
+  }
 }

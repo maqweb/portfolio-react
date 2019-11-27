@@ -1,67 +1,81 @@
 .projects {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    height: 80%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .sectionTitle {
-    text-align: center;
-    text-transform: uppercase;
-    transform: scaleY(.9);
-    /*margin-bottom: 120px;*/
+  text-align: center;
+  text-transform: uppercase;
+  transform: scaleY(.9);
+  /*margin-bottom: 120px;*/
 }
 
 .projectsWrap {
-    min-height: 300px;
-    display: flex;
-    justify-content: space-between;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .projectItem {
-    background: #cccccc;
-    width: 45%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: #cccccc;
+  width: 45%;
+  margin: 5px 0;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projectItem:hover .projectDescr {
-    transform: translateY(200px);
+  transform: translateY(200px);
 }
 
 .projectItem:hover .projectLink {
-    display: block;
+  display: block;
 }
 
 .projectLink {
-    background: #333333;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    width: max-content;
-    display: none;
+  background: #333333;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  width: max-content;
+  display: none;
 }
 
 .projectDescr {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: white;
-    background: #333333;
-    transform: translateY(280px);
-    transition: all .25s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  background: #333333;
+  transform: translateY(280px);
+  transition: all .25s;
+}
+
+@media screen and (max-width: 460px) {
+  .projectsWrap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projectItem {
+    width: 100%;
+  }
 }
 

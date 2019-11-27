@@ -8,7 +8,7 @@
 
 .container {
   height: 80%;
-  width: 80%;
+  width: 1600px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -18,19 +18,41 @@
   text-align: center;
   text-transform: uppercase;
   transform: scaleY(.9);
-  /*margin-bottom: 120px;*/
 }
 
 .skillsWrap {
   min-height: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .skillsItem {
+  margin: 10px 15px;
   background: #ffffff;
-  width: 32%;
+  padding: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.skillsTitle {
+  background: #cccccc;
+  padding: 10px;
+}
+
+.skillsTitle span {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    height: 100%;
+  }
+
+  .skillsWrap {
+    flex-direction: column;
+    align-items: center;
+  }
 }
