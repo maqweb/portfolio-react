@@ -1,5 +1,5 @@
 .projects {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,18 +17,18 @@
   text-align: center;
   text-transform: uppercase;
   transform: scaleY(.9);
-  /*margin-bottom: 120px;*/
+  margin: 20px 0;
 }
 
 .projectsWrap {
-  min-height: 300px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .projectItem {
   background: #cccccc;
-  width: 45%;
+  width: 400px;
   margin: 5px 0;
   height: 300px;
   overflow: hidden;
@@ -67,6 +67,12 @@
   transition: all .25s;
 }
 
+@media screen and (max-width: 800px) {
+  .projectsWrap {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 460px) {
   .projectsWrap {
     flex-direction: column;
@@ -78,4 +84,6 @@
     width: 100%;
   }
 }
+
+
 
