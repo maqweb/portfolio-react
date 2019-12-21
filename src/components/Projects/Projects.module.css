@@ -28,7 +28,7 @@
 
 .projectItem {
   background: #cccccc;
-  width: 400px;
+  width: 480px;
   margin: 5px 0;
   height: 300px;
   overflow: hidden;
@@ -73,17 +73,18 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .projectItem {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 460px) {
   .projectsWrap {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
-  .projectItem {
-    width: 100%;
-  }
 }
-
 
 
