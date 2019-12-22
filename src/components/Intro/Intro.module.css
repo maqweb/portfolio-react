@@ -1,8 +1,10 @@
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   background: #1f1f20;
   display: flex;
   justify-content: center;
+  z-index: 1;
+  position: relative;
 }
 
 .container {
@@ -15,18 +17,71 @@
 .greeting {
   display: flex;
   flex-direction: column;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.introTitle {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.introTitle span {
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+}
+
+.introTitle span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  z-index: -1;
+  background: #4e93e6;
+}
+
+.brStyle {
+  display: none;
+}
+
+.titleDescription {
+  font-size: 27px;
+  font-weight: 400;
 }
 
 .photo {
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
   background: #ccc;
+  position: relative;
 }
 
-@media screen and (max-width: 460px) {
+.photo:after {
+  content: '';
+  position: absolute;
+  border: 5px solid #4e93e6;
+  height: 430px;
+  width: 310px;
+  left: 10px;
+  top: -18px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 880px) {
+  .brStyle {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
     justify-content: center;
+    margin-top: 100px;
   }
 
   .greeting {

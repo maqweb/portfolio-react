@@ -8,12 +8,12 @@ function Intro() {
 
                 <div className={style.greeting}>
                     <span>Hi There</span>
-                    <span>I am Vitaly Balikhin</span>
-                    <span>A front-end developer</span>
+                    <span className={style.introTitle}>I am <br className={style.brStyle}/><span>Balikhin Vitaly</span></span>
+                    <h1 className={style.titleDescription}>A front-end developer</h1>
                 </div>
 
                 <div className={style.photo}>
-                    {/* <img src="" alt=""/> */}
+                     <img src="" alt=""/>
                 </div>
             </div>
         </div>
