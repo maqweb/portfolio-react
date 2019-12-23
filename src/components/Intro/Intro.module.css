@@ -1,6 +1,6 @@
 .intro {
   min-height: 100vh;
-  background: #1f1f20;
+  background: #252527;
   display: flex;
   justify-content: center;
   z-index: 1;
@@ -71,17 +71,21 @@
   z-index: -1;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 990px) {
   .brStyle {
     display: block;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .container {
     flex-direction: column;
     justify-content: center;
     margin-top: 100px;
+  }
+
+  .photo {
+    margin-bottom: 100px;
   }
 
   .greeting {

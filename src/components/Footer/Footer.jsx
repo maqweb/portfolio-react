@@ -5,6 +5,7 @@ function Footer() {
   return (
     <div className={style.footer}>
         <div className={style.container}>
+
             <div className={style.sectionTitle}>Balikhin Vitaly</div>
 
             <div className={style.socialsWrap}>

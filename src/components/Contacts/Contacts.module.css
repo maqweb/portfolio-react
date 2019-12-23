@@ -1,9 +1,11 @@
 .contacts {
   height: 80vh;
-  background: #ccc;
+  background: #1f1f20;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .container {
@@ -24,28 +26,27 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 45%;
   justify-content: space-around;
 }
 
-.form input {
+.formInput {
+  background: #252527;
+  border: 1px solid #4a4a4a;
   height: 25px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.formText {
+  background: #252527;
+  border: 1px solid #4a4a4a;
+  color: #ffffff;
 }
 
 .form,
 .form textarea {
   height: 50%;
-}
-
-.buttonWrap {
-  margin-top: 20px;
-}
-
-.button {
-  background: #ffffff;
-  cursor: pointer;
-  height: 50px;
-  width: 100px;
 }
 
 @media screen and (max-width: 460px) {

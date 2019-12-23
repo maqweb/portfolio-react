@@ -5,13 +5,13 @@
 }
 
 .link {
-  color: #000;
   text-decoration: none;
   position: relative;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
   transform: scaleY(.9);
+  color: #ffffff;
 }
 
 .link::before {
@@ -19,9 +19,9 @@
   display: block;
   position: absolute;
   bottom: -4px;
-  width: 0%;
+  width: 0;
   height: 1px;
-  background: #000;
+  background: #ffffff;
   transition: width .25s;
 }
 

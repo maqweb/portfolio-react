@@ -1,11 +1,14 @@
 import React from 'react';
 import style from './Projects.module.css'
+import SectionTitle from "../SectionTitle/SectionTItle";
 
 function Projects() {
     return (
         <div className={style.projects}>
             <div className={style.container}>
-                <div className={style.sectionTitle}>My projects</div>
+
+                <SectionTitle title={`my projects`}/>
+
                 <div className={style.projectsWrap}>
 
                     <div className={style.projectItem}>

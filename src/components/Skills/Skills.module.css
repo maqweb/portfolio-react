@@ -1,6 +1,6 @@
 .skills {
   min-height: 100vh;
-  background: #252527;
+  background: #1f1f20;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,12 +15,6 @@
   align-items: center;
 }
 
-.sectionTitle {
-  text-align: center;
-  text-transform: uppercase;
-  transform: scaleY(.9);
-}
-
 .skillsWrap {
   display: flex;
   width: 100%;
@@ -29,7 +23,6 @@
 .skillsItem {
   width: 480px;
   margin: 10px 15px;
-  background: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
