@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.6de430dd.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.eb1642fe.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.eb1642fe.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.e0098dec.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.cc9fdb43.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.cc9fdb43.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.242263a2.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.242263a2.js.map",
-    "static/js/2.138e2c25.chunk.js": "/portfolio-react/static/js/2.138e2c25.chunk.js",
-    "static/js/2.138e2c25.chunk.js.map": "/portfolio-react/static/js/2.138e2c25.chunk.js.map",
+    "static/js/2.652b884a.chunk.js": "/portfolio-react/static/js/2.652b884a.chunk.js",
+    "static/js/2.652b884a.chunk.js.map": "/portfolio-react/static/js/2.652b884a.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "precache-manifest.3bb0a0bf2f840b854d6b2d492cc609bd.js": "/portfolio-react/precache-manifest.3bb0a0bf2f840b854d6b2d492cc609bd.js",
+    "precache-manifest.abec9447e0ec3c4e8f60be5609461b10.js": "/portfolio-react/precache-manifest.abec9447e0ec3c4e8f60be5609461b10.js",
     "service-worker.js": "/portfolio-react/service-worker.js",
-    "static/css/main.6de430dd.chunk.css.map": "/portfolio-react/static/css/main.6de430dd.chunk.css.map"
+    "static/css/main.e0098dec.chunk.css.map": "/portfolio-react/static/css/main.e0098dec.chunk.css.map",
+    "static/media/adaptive.svg": "/portfolio-react/static/media/adaptive.d6d9ca95.svg",
+    "static/media/code.svg": "/portfolio-react/static/media/code.c4b9c2cb.svg",
+    "static/media/js.svg": "/portfolio-react/static/media/js.008509fb.svg",
+    "static/media/logo.svg": "/portfolio-react/static/media/logo.5d5d9eef.svg",
+    "static/media/psd.svg": "/portfolio-react/static/media/psd.652985e0.svg",
+    "static/media/valid.svg": "/portfolio-react/static/media/valid.086dd2a7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.242263a2.js",
-    "static/js/2.138e2c25.chunk.js",
-    "static/css/main.6de430dd.chunk.css",
-    "static/js/main.eb1642fe.chunk.js"
+    "static/js/2.652b884a.chunk.js",
+    "static/css/main.e0098dec.chunk.css",
+    "static/js/main.cc9fdb43.chunk.js"
   ]
 }
