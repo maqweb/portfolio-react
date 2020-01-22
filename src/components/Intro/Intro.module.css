@@ -92,3 +92,21 @@
     margin-bottom: 50px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .photo {
+    width: 200px;
+    height: 300px;
+    position: relative;
+  }
+
+  .photo:after {
+    content: '';
+    position: absolute;
+    height: 330px;
+    width: 210px;
+    left: 10px;
+    top: -18px;
+    z-index: -1;
+  }
+}

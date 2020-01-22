@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Projects.module.css'
 import SectionTitle from "../SectionTitle/SectionTItle";
+import Project from "./Project/Project";
 
 function Projects() {
     return (
@@ -10,16 +11,10 @@ function Projects() {
                 <SectionTitle title={`my projects`}/>
 
                 <div className={style.projectsWrap}>
-
-                    <div className={style.projectItem}>
-                        <a className={style.projectLink} href="link">watch the project</a>
-                        <div className={style.projectDescr}>title project</div>
-                    </div>
-
-                    <div className={style.projectItem}>
-                        <a className={style.projectLink} href="link">watch the project</a>
-                        <div className={style.projectDescr}>title project</div>
-                    </div>
+                    
+                    <Project img="img"/>
+                    <Project/>
+                    <Project/>
 
                 </div>
             </div>
