@@ -7,7 +7,7 @@ function Skill(props) {
             <div className={style.skillPic}>
                 <img className={props.title === 'React' ? style.reactIcon : style.skillIcon} src={props.icon} alt=""/>
             </div>
-            <p className={style.skillTitle}>{props.title}</p>
+            <h3 className={style.skillTitle}>{props.title}</h3>
             <p>{props.description}</p>
         </div>
     )

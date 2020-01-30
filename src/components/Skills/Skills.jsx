@@ -7,7 +7,7 @@ import htmlIcon from './../../assets/code.svg';
 import jsIcon from './../../assets/js.svg'
 import adaptiveIcon from './../../assets/adaptive.svg'
 import psdIcon from './../../assets/psd.svg'
-import validationIcon from './../../assets/valid.svg'
+import svgIcon from './../../assets/svg.svg'
 
 
 function Skills() {
@@ -44,8 +44,8 @@ function Skills() {
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
-                    <Skill title={`Validation`}
-                           icon={validationIcon}
+                    <Skill title={`Vector grafic`}
+                           icon={svgIcon}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 

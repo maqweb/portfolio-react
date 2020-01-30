@@ -28,7 +28,7 @@
 }
 
 .projectItem {
-  background: #cccccc;
+  background: darkgrey;
   width: 480px;
   margin: 5px 0;
   height: 300px;
@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .projectItem:hover .projectDescr {
@@ -48,12 +49,33 @@
 }
 
 .projectLink {
-  background: #333333;
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 2px 5px;
   width: max-content;
   display: none;
+  position: relative;
+}
+
+.projectLink:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 8px;
+  width: 80%;
+  z-index: -1;
+  background: #4e93e6;
+  margin: 0 auto;
+  transition: all ease .25s;
+}
+
+.projectLink:hover:after {
+  height: 100%;
+  width: 100%;
+  transition: all ease .25s;
+  z-index: -1;
 }
 
 .projectDescr {
