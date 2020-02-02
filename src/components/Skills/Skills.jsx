@@ -7,7 +7,7 @@ import htmlIcon from './../../assets/code.svg';
 import jsIcon from './../../assets/js.svg'
 import adaptiveIcon from './../../assets/adaptive.svg'
 import psdIcon from './../../assets/psd.svg'
-import svgIcon from './../../assets/svg.svg'
+import reduxIcon from './../../assets/Redux.svg'
 
 
 function Skills() {
@@ -19,8 +19,8 @@ function Skills() {
 
                 <div className={style.skillsWrap}>
 
-                    <Skill title={`HTML & CSS`}
-                           icon={htmlIcon}
+                    <Skill title={`JavaScript`}
+                           icon={jsIcon}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
@@ -29,8 +29,14 @@ function Skills() {
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
-                    <Skill title={`JavaScript`}
-                           icon={jsIcon}
+                    <Skill title={`Redux`}
+                           icon={reduxIcon}
+                           description={`Lorem ipsum dolor sit amet,l vero. 
+                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
+
+
+                    <Skill title={`HTML & CSS`}
+                           icon={htmlIcon}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
@@ -44,10 +50,7 @@ function Skills() {
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
-                    <Skill title={`Vector grafic`}
-                           icon={svgIcon}
-                           description={`Lorem ipsum dolor sit amet,l vero. 
-                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
+
 
 
                 </div>

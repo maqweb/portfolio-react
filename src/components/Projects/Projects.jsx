@@ -12,9 +12,9 @@ function Projects() {
 
                 <div className={style.projectsWrap}>
                     
-                    <Project img="img"/>
-                    <Project/>
-                    <Project/>
+                    <Project title={'Social Network'}/>
+                    <Project title={'To do list'}/>
+                    <Project title={'Counter'}/>
 
                 </div>
             </div>

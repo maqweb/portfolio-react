@@ -7,10 +7,10 @@
 }
 
 .container {
-  height: 80%;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 
@@ -30,8 +30,8 @@
 
 .projectItem {
   background: darkgrey;
-  width: 480px;
-  margin: 5px 0;
+  width: 380px;
+  margin: 15px 0;
   height: 300px;
   overflow: hidden;
   position: relative;
@@ -42,11 +42,17 @@
 }
 
 .projectItem:hover .projectDescr {
-  transform: translateY(200px);
+  transform: translateY(0px);
 }
 
 .projectItem:hover .projectLink {
-  display: block;
+  transform: translateY(0px);
+  transition: all .5s;
+}
+
+.projectItem:hover .projectDescrText {
+  transform: translateY(0px);
+  transition: all .7s;
 }
 
 .projectLink {
@@ -54,8 +60,9 @@
   text-decoration: none;
   padding: 2px 5px;
   width: max-content;
-  display: none;
   position: relative;
+  transform: translateY(250px);
+  transition: all .25s;
 }
 
 .projectLink:after {
@@ -86,14 +93,45 @@
   left: 0;
   right: 0;
   color: white;
-  background: #333333;
-  transform: translateY(280px);
+  background: rgba(0,0,0, .85);
+  z-index: -2;
+  transform: translateY(250px);
   transition: all .25s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projectTitle {
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.projectDescrText {
+  transform: translateY(230px);
+  transition: all .25s;
+  font: 400 14px/1.8 Anonymous Pro,monospace;
+  padding: 0 40px;
 }
 
 @media screen and (max-width: 1199px) {
   .projectsWrap {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .projectsWrap {
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+  }
+
+  .projectItem {
+    width: 80%;
   }
 }
 
