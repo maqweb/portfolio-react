@@ -6,8 +6,8 @@ import reactIcon from './../../assets/logo.svg';
 import htmlIcon from './../../assets/code.svg';
 import jsIcon from './../../assets/js.svg'
 import adaptiveIcon from './../../assets/adaptive.svg'
-import psdIcon from './../../assets/psd.svg'
 import reduxIcon from './../../assets/Redux.svg'
+import tsIcon from './../../assets/typescript.svg'
 
 
 function Skills() {
@@ -19,8 +19,8 @@ function Skills() {
 
                 <div className={style.skillsWrap}>
 
-                    <Skill title={`JavaScript`}
-                           icon={jsIcon}
+                    <Skill title={`TypeScript`}
+                           icon={tsIcon}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
@@ -34,6 +34,10 @@ function Skills() {
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
+                    <Skill title={`JavaScript`}
+                           icon={jsIcon}
+                           description={`Lorem ipsum dolor sit amet,l vero. 
+                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
                     <Skill title={`HTML & CSS`}
                            icon={htmlIcon}
@@ -44,14 +48,6 @@ function Skills() {
                            icon={adaptiveIcon}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
-
-                    <Skill title={`Photoshop`}
-                           icon={psdIcon}
-                           description={`Lorem ipsum dolor sit amet,l vero. 
-                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
-
-
-
 
                 </div>
             </div>

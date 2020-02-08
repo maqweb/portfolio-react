@@ -21,11 +21,6 @@ function Footer() {
                 <SocilaIcon icon={telegramIcon}/>
                 <SocilaIcon icon={linkedInIcon}/>
 
-
-                {/*<div className={style.socialItem}>github</div>
-                <div className={style.socialItem}>vk</div>
-                <div className={style.socialItem}>telegram</div>
-                <div className={style.socialItem}>linkedIn</div>*/}
             </div>
 
             <div className={style.copyrights}>
