@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b22a3e7245a638d18154b8ee3a1a294f",
+    "revision": "960de5604ae289caa497327b56e8aaa7",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "22a5c36d169fd968a33f",
-    "url": "/portfolio-react/static/css/main.e43321dc.chunk.css"
+    "revision": "e066fef0ec89d7a79bd9",
+    "url": "/portfolio-react/static/css/main.dc6ec80d.chunk.css"
   },
   {
-    "revision": "842bd6964467c0bbfb0b",
-    "url": "/portfolio-react/static/js/2.8e03d245.chunk.js"
+    "revision": "8267b0286291fb89187a",
+    "url": "/portfolio-react/static/js/2.203c0ece.chunk.js"
   },
   {
-    "revision": "22a5c36d169fd968a33f",
-    "url": "/portfolio-react/static/js/main.e99980c0.chunk.js"
+    "revision": "e066fef0ec89d7a79bd9",
+    "url": "/portfolio-react/static/js/main.0d32d428.chunk.js"
   },
   {
     "revision": "fb5e9f633bfbe7d8fe61",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/code.87f157eb.svg"
   },
   {
-    "revision": "cb0ac1cef78d1706bcd05736b24a4c88",
-    "url": "/portfolio-react/static/media/counter2.cb0ac1ce.png"
+    "revision": "994f0704849518aa64237c4ac61421f4",
+    "url": "/portfolio-react/static/media/counter.994f0704.png"
   },
   {
     "revision": "c4cfcd0f2bd1753776c7e1140cce722f",
@@ -52,16 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "39a99dcccb6ae0a4dcd57addfa82ae39",
-    "url": "/portfolio-react/static/media/psd.39a99dcc.svg"
-  },
-  {
     "revision": "a451f456eac79406086651dc449c331a",
     "url": "/portfolio-react/static/media/telegram.a451f456.svg"
   },
   {
     "revision": "457d6588068843ccdd6b1382716fe348",
     "url": "/portfolio-react/static/media/todolist.457d6588.png"
+  },
+  {
+    "revision": "e7c93d65a749218466ade2bc8c955696",
+    "url": "/portfolio-react/static/media/typescript.e7c93d65.svg"
   },
   {
     "revision": "b03024c4d635b0a304e483e1d9fa34d8",
