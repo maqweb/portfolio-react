@@ -21,21 +21,29 @@
   text-transform: capitalize;
   letter-spacing: 2px;
   transform: scaleY(.9);
+  color: #646464;
 }
 
 .socialsWrap {
   display: flex;
   justify-content: space-evenly;
-  width: 400px;
+  width: 250px;
 }
 
 .socialItem {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 9px;
+  transition: all ease .25s;
+  border-radius: 50%;
+}
+
+.socialItem:hover {
+  transform: scale(1.2, 1.2);
+  box-shadow: 1px 1px 6px rgba(0,0,0, 0.6);
 }
 
 .socialPic {
@@ -45,6 +53,8 @@
 .copyrights {
   font-size: 12px;
   text-align: center;
+  color: #646464;
+  transform: scaleY(.9);
 }
 
 @media screen and (max-width: 460px) {

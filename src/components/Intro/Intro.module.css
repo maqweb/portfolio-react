@@ -1,6 +1,6 @@
 .intro {
   min-height: 100vh;
-  background: #252527;
+  background: #1f1f20;
   display: flex;
   justify-content: center;
   z-index: 1;
@@ -63,17 +63,16 @@
   width: 300px;
   height: 400px;
   background: #ccc;
-  position: relative;
 }
 
 .photo:after {
   content: '';
   position: absolute;
   border: 5px solid #4e93e6;
-  height: 430px;
-  width: 310px;
+  height: 420px;
+  width: 300px;
   left: 10px;
-  top: -18px;
+  top: -15px;
   z-index: -1;
 }
 

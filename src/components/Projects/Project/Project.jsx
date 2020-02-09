@@ -1,8 +1,10 @@
 import React from 'react';
 import style from "./../Projects.module.css";
+import {Zoom} from "react-reveal";
 
 function Project(props) {
     return (
+        <Zoom delay={props.delay}>
         <div className={style.projectItem} style={{backgroundImage: `url(${props.img})`}}>
             <a className={style.projectLink} href={props.link} rel="opener">watch the project</a>
             <div className={style.projectDescr}>
@@ -13,6 +15,7 @@ function Project(props) {
                 </p>
             </div>
         </div>
+        </Zoom>
     )
 }
 

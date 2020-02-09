@@ -36,12 +36,21 @@
   height: 25px;
   margin-bottom: 10px;
   color: #ffffff;
+  transition: all .4s ease-in-out 0s;
+  outline: none;
+}
+
+.formInput:focus,
+.formText:focus {
+  border-color: #1f1f20;
 }
 
 .formText {
   background: #252527;
   border: 1px solid #4a4a4a;
   color: #ffffff;
+  transition: all .4s ease-in-out 0s;
+  outline: none;
 }
 
 .form,

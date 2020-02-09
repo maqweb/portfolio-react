@@ -1,12 +1,13 @@
 import React from 'react';
 import style from './Intro.module.css'
-import {Fade} from "react-reveal";
+import {Fade, Flip} from "react-reveal";
 
 function Intro() {
     return (
         <div className={style.intro}>
             <div className={style.container}>
-                <Fade bottom>
+
+                <Fade left>
                     <div className={style.greeting}>
                         <span>Hi There</span>
                         <span className={style.introTitle}>I am <br
@@ -15,12 +16,14 @@ function Intro() {
                     </div>
                 </Fade>
 
-                <div className={style.photoWrap}>
-
-                    <div className={style.photo}>
-                        <img src="" alt=""/>
+                <Flip right>
+                    <div className={style.photoWrap}>
+                        <div className={style.photo}>
+                            <img src="" alt=""/>
+                        </div>
                     </div>
-                </div>
+                </Flip>
+
             </div>
         </div>
     );

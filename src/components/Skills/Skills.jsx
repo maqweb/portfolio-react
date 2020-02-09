@@ -19,33 +19,44 @@ function Skills() {
 
                 <div className={style.skillsWrap}>
 
-                    <Skill title={`TypeScript`}
-                           icon={tsIcon}
+                    <Skill title={`React`}
+                           icon={reactIcon}
+                           delay={600}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
-                    <Skill title={`React`}
-                           icon={reactIcon}
-                           description={`Lorem ipsum dolor sit amet,l vero. 
-                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
                     <Skill title={`Redux`}
                            icon={reduxIcon}
+                           delay={800}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
+
+
+                    <Skill title={`TypeScript`}
+                           icon={tsIcon}
+                           delay={1000}
+                           description={`Lorem ipsum dolor sit amet,l vero. 
+                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
+
 
                     <Skill title={`JavaScript`}
                            icon={jsIcon}
+                           delay={1200}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
+
 
                     <Skill title={`HTML & CSS`}
                            icon={htmlIcon}
+                           delay={1400}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 
+
                     <Skill title={`Adaptive Layout`}
                            icon={adaptiveIcon}
+                           delay={1600}
                            description={`Lorem ipsum dolor sit amet,l vero. 
                            Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
 

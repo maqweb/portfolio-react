@@ -13,11 +13,13 @@ function Projects() {
                 <SectionTitle title={`my projects`}/>
 
                 <div className={style.projectsWrap}>
-                    
-                    <Project title={'Social Network'} />
-                    <Project title={'To do list'} img={todolistPic} link={'https://maqweb.github.io/todolist-react/'}/>
-                    <Project title={'Counter'} img={counterPic} link={'https://maqweb.github.io/counter-react/'}/>
+                    <Project title={'Social Network'} delay={600}/>
 
+                    <Project title={'To do list'} delay={800} img={todolistPic}
+                             link={'https://maqweb.github.io/todolist-react/'}/>
+
+                    <Project title={'Counter'} delay={1000} img={counterPic}
+                             link={'https://maqweb.github.io/counter-react/'}/>
                 </div>
             </div>
         </div>
