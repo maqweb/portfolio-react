@@ -6,7 +6,7 @@ import {Fade} from "react-reveal";
 
 function Contacts() {
     return (
-        <div className={style.contacts}>
+        <div id="contacts" className={style.contacts}>
             <div className={style.container}>
 
                 <SectionTitle title={`contacts`}/>

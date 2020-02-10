@@ -5,40 +5,50 @@ import gitIcon from './../../assets/social-icons/github.svg'
 import telegramIcon from './../../assets/social-icons/telegram.svg'
 import linkedInIcon from './../../assets/social-icons/linkedin.svg'
 import SocilaIcon from "./SocialIcon";
-import {Fade} from "react-reveal";
 
 
-function Footer() {
-    return (
-        <div className={style.footer}>
-            <div className={style.container}>
+class Footer extends React.Component {
+    state = {
+        icons: [
+            {
+                icon: gitIcon,
+                delay: 400
+            },
+            {
+                icon: telegramIcon,
+                delay: 600
+            },
+            {
+                icon: linkedInIcon,
+                delay: 800
+            },
+        ]
+    };
 
-                <div className={style.sectionTitle}>Balikhin Vitaly</div>
+    render() {
 
-                <div className={style.socialsWrap}>
+        const iconElement = this.state.icons.map(i => {
+            return <SocilaIcon icon={i.icon} delay={i.delay}/>
+        });
 
-                    <Fade bottom delay={400}>
-                        <SocilaIcon icon={gitIcon}/>
-                    </Fade>
-                    {/*<Fade bottom delay={1600}>
-                        <SocilaIcon icon={vkIcon}/>
-                    </Fade>*/}
-                    <Fade bottom delay={600}>
-                        <SocilaIcon icon={telegramIcon}/>
-                    </Fade>
-                    <Fade bottom delay={800}>
-                        <SocilaIcon icon={linkedInIcon}/>
-                    </Fade>
+        return (
+            <div className={style.footer}>
+                <div className={style.container}>
+
+                    <div className={style.sectionTitle}>Balikhin Vitaly</div>
+
+                    <div className={style.socialsWrap}>
+                        {iconElement}
+                    </div>
+
+                    <div className={style.copyrights}>
+                        © 2020 all rights reserved
+                    </div>
 
                 </div>
-
-                <div className={style.copyrights}>
-                    © 2019 all rights reserved
-                </div>
-
             </div>
-        </div>
-    );
+        );
+    }
 }
 
 export default Footer;

@@ -4,7 +4,7 @@ import {Fade, Flip} from "react-reveal";
 
 function Intro() {
     return (
-        <div className={style.intro}>
+        <div id="intro" className={style.intro}>
             <div className={style.container}>
 
                 <Fade left>

@@ -12,6 +12,7 @@
   letter-spacing: 1px;
   transform: scaleY(.9);
   color: #ffffff;
+  cursor: pointer;
 }
 
 .link::before {
@@ -26,5 +27,9 @@
 }
 
 .link:hover::before {
+  width: 100%;
+}
+
+.active::before {
   width: 100%;
 }

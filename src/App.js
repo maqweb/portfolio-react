@@ -67,7 +67,6 @@ function App() {
     return (
         <div className="App">
             <div className="mainWrapper">
-
                 <Header/>
                 <Particles className='particles' params={particlesOption}/>
                 <Intro/>

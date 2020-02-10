@@ -10,60 +10,66 @@ import reduxIcon from './../../assets/Redux.svg'
 import tsIcon from './../../assets/typescript.svg'
 
 
-function Skills() {
-    return (
-        <div className={style.skills}>
-            <div className={style.container}>
+class Skills extends React.Component {
+    state = {
+        skills: [
+            {
+                title: 'React',
+                icon: reactIcon,
+                delay: 600,
+                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+            },
+            {
+                title: 'Redux',
+                icon: reduxIcon,
+                delay: 800,
+                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+            },
+            {
+                title: 'TypeScript',
+                icon: tsIcon,
+                delay: 1000,
+                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+            },
+            {
+                title: 'JavaScript',
+                icon: jsIcon,
+                delay: 1200,
+                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+            },
+            {
+                title: 'HTML & CSS',
+                icon: htmlIcon,
+                delay: 1400,
+                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+            },
+            {
+                title: 'Adaptive Layout',
+                icon: adaptiveIcon,
+                delay: 1600,
+                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+            },
+        ]
+    };
 
-                <SectionTitle title={`my skills`}/>
+    render() {
 
-                <div className={style.skillsWrap}>
+        const skillElement = this.state.skills.map(s => {
+            return <Skill title={s.title} icon={s.icon} delay={s.delay} description={s.description}/>
+        });
 
-                    <Skill title={`React`}
-                           icon={reactIcon}
-                           delay={600}
-                           description={`Lorem ipsum dolor sit amet,l vero. 
-                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
+        return (
+            <div className={style.skills}>
+                <div id="skills" className={style.container}>
+                    <SectionTitle title={`my skills`}/>
 
-
-                    <Skill title={`Redux`}
-                           icon={reduxIcon}
-                           delay={800}
-                           description={`Lorem ipsum dolor sit amet,l vero. 
-                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
-
-
-                    <Skill title={`TypeScript`}
-                           icon={tsIcon}
-                           delay={1000}
-                           description={`Lorem ipsum dolor sit amet,l vero. 
-                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
-
-
-                    <Skill title={`JavaScript`}
-                           icon={jsIcon}
-                           delay={1200}
-                           description={`Lorem ipsum dolor sit amet,l vero. 
-                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
-
-
-                    <Skill title={`HTML & CSS`}
-                           icon={htmlIcon}
-                           delay={1400}
-                           description={`Lorem ipsum dolor sit amet,l vero. 
-                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
-
-
-                    <Skill title={`Adaptive Layout`}
-                           icon={adaptiveIcon}
-                           delay={1600}
-                           description={`Lorem ipsum dolor sit amet,l vero. 
-                           Assumenda dolorem doloribus incidunt magnam quos tempora veniam!`}/>
-
+                    <div className={style.skillsWrap}>
+                        {skillElement}
+                    </div>
                 </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
 
 export default Skills;
