@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Intro.module.css'
 import {Fade, Flip} from "react-reveal";
-
+import photo from './../../assets/photo.jpg'
 function Intro() {
     return (
         <div id="intro" className={style.intro}>
@@ -19,7 +19,7 @@ function Intro() {
                 <Flip right>
                     <div className={style.photoWrap}>
                         <div className={style.photo}>
-                            <img src="" alt=""/>
+                            <img className={style.photoImg} src={photo} alt=""/>
                         </div>
                     </div>
                 </Flip>

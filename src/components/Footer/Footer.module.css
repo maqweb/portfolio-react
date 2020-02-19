@@ -37,17 +37,16 @@
   justify-content: center;
   align-items: center;
   font-size: 9px;
-  transition: all ease .25s;
   border-radius: 50%;
-}
-
-.socialItem:hover {
-  transform: scale(1.2, 1.2);
-  box-shadow: 1px 1px 6px rgba(0,0,0, 0.6);
 }
 
 .socialPic {
   width: 100%;
+  transition: all ease .25s;
+}
+
+.socialPic:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .copyrights {

@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './Footer.module.css'
 import gitIcon from './../../assets/social-icons/github.svg'
-// import vkIcon from './../../assets/social-icons/vk.svg'
 import telegramIcon from './../../assets/social-icons/telegram.svg'
 import linkedInIcon from './../../assets/social-icons/linkedin.svg'
 import SocilaIcon from "./SocialIcon";
@@ -12,15 +11,18 @@ class Footer extends React.Component {
         icons: [
             {
                 icon: gitIcon,
-                delay: 400
+                delay: 400,
+                link: 'https://github.com/maqweb'
             },
             {
                 icon: telegramIcon,
-                delay: 600
+                delay: 600,
+                link: 'https://t.me/balikhinv'
             },
             {
                 icon: linkedInIcon,
-                delay: 800
+                delay: 800,
+                link: 'https://www.linkedin.com/in/vitaly-balikhin-a05596194/'
             },
         ]
     };
@@ -28,7 +30,7 @@ class Footer extends React.Component {
     render() {
 
         const iconElement = this.state.icons.map(i => {
-            return <SocilaIcon icon={i.icon} delay={i.delay}/>
+            return <SocilaIcon icon={i.icon} delay={i.delay} link={i.link}/>
         });
 
         return (

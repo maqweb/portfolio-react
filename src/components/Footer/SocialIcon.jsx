@@ -6,7 +6,7 @@ const SocilaIcon = (props) => {
     return (
         <Fade bottom delay={props.delay}>
         <div className={style.socialItem}>
-            <a href="link">
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
                 <img className={style.socialPic} src={props.icon} alt=""/>
             </a>
         </div>
