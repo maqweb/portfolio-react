@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f014e4e20159222e005514915ceec5b7",
+    "revision": "0ad348f317c079137a4e522094160a32",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "c1319734e12dfeb4eb07",
-    "url": "/portfolio-react/static/css/main.751998aa.chunk.css"
+    "revision": "c43c32d370bf52451b80",
+    "url": "/portfolio-react/static/css/main.89e07215.chunk.css"
   },
   {
-    "revision": "b543422b763f04002649",
-    "url": "/portfolio-react/static/js/2.44def9f2.chunk.js"
+    "revision": "02331525eb1304a5bc16",
+    "url": "/portfolio-react/static/js/2.8be4185f.chunk.js"
   },
   {
-    "revision": "c1319734e12dfeb4eb07",
-    "url": "/portfolio-react/static/js/main.822ca747.chunk.js"
+    "revision": "c43c32d370bf52451b80",
+    "url": "/portfolio-react/static/js/main.7235e06b.chunk.js"
   },
   {
     "revision": "fb5e9f633bfbe7d8fe61",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c4cfcd0f2bd1753776c7e1140cce722f",
     "url": "/portfolio-react/static/media/github.c4cfcd0f.svg"
+  },
+  {
+    "revision": "00c5ff3dc43107bba65c76acf79417e9",
+    "url": "/portfolio-react/static/media/js-game.00c5ff3d.png"
   },
   {
     "revision": "96634a173c30e7a5e1d579dec0e64daf",
