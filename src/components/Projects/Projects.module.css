@@ -23,10 +23,15 @@
 }
 
 .projectsWrap {
-  display: flex;
+/*  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 30px;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  padding: 20px;
 }
 
 .projectItem {

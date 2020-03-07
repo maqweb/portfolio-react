@@ -6,6 +6,7 @@ import counterPic from './../../assets/projects/counter.png'
 import todolistPic from './../../assets/projects/todolist.png'
 import networkPic from './../../assets/projects/network.png'
 import todoBootstrapPic from './../../assets/projects/todo-bootstrap.png'
+import jsGamePic from './../../assets/projects/js-game.png'
 
 class Projects extends React.Component {
     state = {
@@ -42,6 +43,14 @@ class Projects extends React.Component {
                 link: 'https://maqweb.github.io/todo-react-app/',
                 linkToCode: 'https://github.com/maqweb/todo-react-app',
                 description: 'React, localStorage'
+            },
+            {
+                title: 'Simple JavaScript Game',
+                delay: 1200,
+                img: jsGamePic,
+                link: 'https://maqweb.github.io/simple-js-game/',
+                linkToCode: 'https://github.com/maqweb/simple-js-game',
+                description: 'Native JavaScript'
             },
         ]
     };
