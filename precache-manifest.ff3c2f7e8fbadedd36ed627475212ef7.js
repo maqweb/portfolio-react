@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe9643eaeb24d277dd3fd09177fbbc2a",
+    "revision": "f014e4e20159222e005514915ceec5b7",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "77d42c05407131d6162c",
-    "url": "/portfolio-react/static/css/main.35f3855b.chunk.css"
+    "revision": "c1319734e12dfeb4eb07",
+    "url": "/portfolio-react/static/css/main.751998aa.chunk.css"
   },
   {
-    "revision": "179e2a4f72a4106f39c9",
-    "url": "/portfolio-react/static/js/2.c0b7045f.chunk.js"
+    "revision": "b543422b763f04002649",
+    "url": "/portfolio-react/static/js/2.44def9f2.chunk.js"
   },
   {
-    "revision": "77d42c05407131d6162c",
-    "url": "/portfolio-react/static/js/main.78a3ee63.chunk.js"
+    "revision": "c1319734e12dfeb4eb07",
+    "url": "/portfolio-react/static/js/main.822ca747.chunk.js"
   },
   {
     "revision": "fb5e9f633bfbe7d8fe61",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/code.87f157eb.svg"
   },
   {
-    "revision": "994f0704849518aa64237c4ac61421f4",
-    "url": "/portfolio-react/static/media/counter.994f0704.png"
+    "revision": "8b8e5cf1cbcf5f28ed062abd1d36bf67",
+    "url": "/portfolio-react/static/media/counter.8b8e5cf1.png"
   },
   {
     "revision": "c4cfcd0f2bd1753776c7e1140cce722f",
@@ -64,8 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react/static/media/telegram.a451f456.svg"
   },
   {
-    "revision": "457d6588068843ccdd6b1382716fe348",
-    "url": "/portfolio-react/static/media/todolist.457d6588.png"
+    "revision": "ff8de5c104cbf55a7de1a38f5159dbbc",
+    "url": "/portfolio-react/static/media/todo-bootstrap.ff8de5c1.png"
+  },
+  {
+    "revision": "939d383b6602169871851de72eadc11b",
+    "url": "/portfolio-react/static/media/todolist.939d383b.png"
   },
   {
     "revision": "e7c93d65a749218466ade2bc8c955696",
