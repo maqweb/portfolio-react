@@ -5,30 +5,43 @@ import Project from './Project/Project';
 import counterPic from './../../assets/projects/counter.png'
 import todolistPic from './../../assets/projects/todolist.png'
 import networkPic from './../../assets/projects/network.png'
+import todoBootstrapPic from './../../assets/projects/todo-bootstrap.png'
 
 class Projects extends React.Component {
     state = {
         projects: [
             {
-                title: 'Social Network',
+                title: 'Simple Counter',
                 delay: 600,
-                img: networkPic,
-                // link:,
-                description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam doloribus excepturi facere, ipsum quia veniam.'
+                img: counterPic,
+                link: 'https://maqweb.github.io/counter-react/',
+                linkToCode: 'https://github.com/maqweb/counter-react',
+                description: 'React, Redux, react-redux'
             },
             {
                 title: 'To do list',
                 delay: 800,
                 img: todolistPic,
                 link: 'https://maqweb.github.io/todolist-react/',
-                description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam doloribus excepturi facere, ipsum quia veniam.'
+                linkToCode: 'https://github.com/maqweb/todolist-react',
+                description: 'React, Redux, react-redux, login/logout, restAPI, Route, dispatch actions, redux-thunk, axios, connect'
             },
             {
-                title: 'Counter',
+                title: 'Social Network',
                 delay: 1000,
-                img: counterPic,
-                link: 'https://maqweb.github.io/counter-react/',
-                description: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam doloribus excepturi facere, ipsum quia veniam.'
+                img: networkPic,
+                link: 'https://maqweb.github.io/social-react/',
+                linkToCode: 'https://github.com/maqweb/social-react',
+                description: 'React, Redux, react-redux, login/logout, restAPI, Route, dispatch actions, redux-thunk, axios, connect, ' +
+                    'reselect, HOC, HOOK'
+            },
+            {
+                title: 'To do list with Bootstrap',
+                delay: 1100,
+                img: todoBootstrapPic,
+                link: 'https://maqweb.github.io/todo-react-app/',
+                linkToCode: 'https://github.com/maqweb/todo-react-app',
+                description: 'React, localStorage'
             },
         ]
     };
@@ -36,7 +49,13 @@ class Projects extends React.Component {
     render() {
 
         const projectElement = this.state.projects.map(p => {
-            return <Project title={p.title} delay={p.delay} img={p.img} link={p.link} description={p.description}/>
+            return <Project title={p.title}
+                            delay={p.delay}
+                            key={p.title}
+                            img={p.img}
+                            link={p.link}
+                            linkToCode={p.linkToCode}
+                            description={p.description}/>
         });
 
         return (

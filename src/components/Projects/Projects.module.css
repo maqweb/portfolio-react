@@ -109,7 +109,7 @@
 .projectTitle {
   text-align: center;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 14px;
 }
 
@@ -150,6 +150,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .projectDescrText {
+    font-size: 12px;
   }
 }
 

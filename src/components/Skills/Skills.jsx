@@ -17,37 +17,39 @@ class Skills extends React.Component {
                 title: 'React',
                 icon: reactIcon,
                 delay: 600,
-                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+                description: 'Class & function components, life cycle methods, HOC, HOOK, key, setState, props, PropTypes, axios, ' +
+                    'controlled elements, ref;'
             },
             {
                 title: 'Redux',
                 icon: reduxIcon,
                 delay: 800,
-                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+                description: 'combineReducers, reducer, dispatch, action, provider, connect, react-router-dom, redux-thunk;'
             },
             {
                 title: 'TypeScript',
                 icon: tsIcon,
                 delay: 1000,
-                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+                description: 'typing props, create Interfaces, generics;'
             },
             {
                 title: 'JavaScript',
                 icon: jsIcon,
                 delay: 1200,
-                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+                description: 'es5 / es6; Arrow functions, array methods, spread, destructuring, eventListener, delegation, ' +
+                    'event propagation, promise, pure function, localStorage;'
             },
             {
                 title: 'HTML & CSS',
                 icon: htmlIcon,
                 delay: 1400,
-                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+                description: 'knowledge of semantic tags, use prepros sass;'
             },
             {
                 title: 'Adaptive Layout',
                 icon: adaptiveIcon,
                 delay: 1600,
-                description: 'Lorem ipsum dolor sit amet,l vero. Assumenda dolorem doloribus incidunt magnam quos tempora veniam!'
+                description: 'use flexbox, css grid, media queries, bootstrap3/4;'
             },
         ]
     };
@@ -55,7 +57,14 @@ class Skills extends React.Component {
     render() {
 
         const skillElement = this.state.skills.map(s => {
-            return <Skill title={s.title} icon={s.icon} delay={s.delay} description={s.description}/>
+            return (
+                <Skill title={s.title}
+                       key={s.title}
+                       icon={s.icon}
+                       delay={s.delay}
+                       description={s.description}
+                />
+            )
         });
 
         return (

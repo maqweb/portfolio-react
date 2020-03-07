@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Intro.module.css'
 import {Fade, Flip} from "react-reveal";
 import photo from './../../assets/photo.jpg'
+
 function Intro() {
     return (
         <div id="intro" className={style.intro}>

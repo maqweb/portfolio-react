@@ -10,16 +10,19 @@ class Footer extends React.Component {
     state = {
         icons: [
             {
+                id: 1,
                 icon: gitIcon,
                 delay: 400,
                 link: 'https://github.com/maqweb'
             },
             {
+                id: 2,
                 icon: telegramIcon,
                 delay: 600,
                 link: 'https://t.me/balikhinv'
             },
             {
+                id: 3,
                 icon: linkedInIcon,
                 delay: 800,
                 link: 'https://www.linkedin.com/in/vitaly-balikhin-a05596194/'
@@ -30,7 +33,7 @@ class Footer extends React.Component {
     render() {
 
         const iconElement = this.state.icons.map(i => {
-            return <SocilaIcon icon={i.icon} delay={i.delay} link={i.link}/>
+            return <SocilaIcon key={i.id} icon={i.icon} delay={i.delay} link={i.link}/>
         });
 
         return (

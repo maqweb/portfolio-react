@@ -9,7 +9,11 @@ function Project(props) {
 
                 <a className={style.projectLink}
                    href={props.link}
-                   target="_blank" rel="noopener noreferrer">watch the project</a>
+                   target="_blank" rel="noopener noreferrer">demo</a>
+
+                <a className={style.projectLink}
+                   href={props.linkToCode}
+                   target="_blank" rel="noopener noreferrer">code</a>
 
                 <div className={style.projectDescr}>
                     <h3 className={style.projectTitle}>{props.title}</h3>
