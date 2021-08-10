@@ -21,12 +21,12 @@ function NavMenu() {
                   offset={-50}
                   duration={500} className={style.link}>Skills</Link>
 
-            <Link to="projects"
+           {/* <Link to="projects"
                   spy={true}
                   activeClass={style.active}
                   smooth={true}
                   offset={-20}
-                  duration={500} className={style.link}>Projects</Link>
+                  duration={500} className={style.link}>Projects</Link>*/}
 
             <Link to="contacts"
                   spy={true}

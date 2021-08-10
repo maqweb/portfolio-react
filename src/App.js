@@ -71,7 +71,7 @@ function App() {
                 <Particles className='particles' params={particlesOption}/>
                 <Intro/>
                 <Skills/>
-                <Projects/>
+                {/*<Projects/>*/}
                 <Contacts/>
                 <Footer/>
             </div>

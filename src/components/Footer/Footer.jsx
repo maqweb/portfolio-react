@@ -47,7 +47,7 @@ class Footer extends React.Component {
                     </div>
 
                     <div className={style.copyrights}>
-                        © 2020 all rights reserved
+                        © 2021 all rights reserved
                     </div>
 
                 </div>
